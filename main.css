@@ -1,0 +1,177 @@
+body {
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+
+.centered-section {
+    display: flex;
+    justify-content: center;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+input[type=text] {
+    max-width: 580px;
+    min-width: 375px;
+    height: 44px;
+    border-radius: 24px;
+    border: 0px solid #dfe1e5;
+}
+
+nav {
+    padding: .5rem;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li {
+    float: right;
+    margin-left: .75rem;
+}
+
+.menu-items {
+    font-size: smaller;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 100px;
+    min-height: 40px;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.option-icon {
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.option-icon:hover {
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+}
+
+.option-icon > svg {
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.user-icon {
+    margin-top: 2px;
+    padding: .5rem;
+    background-color: #78909c;
+    border-radius: 50%;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-font {
+    font-size: smaller;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #f2f2f2;
+    color: #70757a;
+}
+
+.footer-1 {
+    font-size: 15px;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer-2 {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem 2rem;
+}
+
+.footer-2 > div {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer-2 > div > a {
+    padding: 0 8px;
+}
+
+.search-icon {
+    height: 100%;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.search-box {
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+}
+
+button {
+    background-color: #f8f9fa;
+    padding: .5rem 1rem;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+    margin: 0 .5rem;
+}
+
+button:hover {
+    border: 1px solid #dadce0;
+}
+
+.button-section {
+    height: 70px;
+    padding: 16px 0 0 0 ;
+    min-width: 280px;
+}
+
+.language-section > a {
+    padding: 0 3px;
+}
